@@ -19,6 +19,7 @@ Additional parser options:
 `[-cores <number-of-cores>]`
 
 The Parameters are:
+ * <version>the version of the jar file (see download section)
  * <class> The class and path of the tool:  `is2.parser.Parser` | `is2.tag3.Tagger` | `is2.lemmatizer.Lemmatizer` | `is2.mtag.Main` 
  * <model> The name of a model which is created during the traing or used by tool for tagger, parsing, etc.
  * <training-corpus> A corpus that is used for training in [http://ufal.mff.cuni.cz/conll2009-st/task-description.html#Dataformat CoNLL 2009 format]

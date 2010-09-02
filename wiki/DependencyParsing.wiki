@@ -3,12 +3,7 @@ How to use the dependency parser from the command line?
 
 = Introduction =
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+What is needed to run the parser:
+  # the 'jar'-file containing the parser, please download anna.jar (tab Downloads)
+  # a model for the parser, e.g. prs-eng.mdl, pre-trained models can be found in the Download section for various languages
+ # input file with sentences in one word per line format; the words have to be tagged, lemmatized and for some languages morphologic tags should be provided as well (e.g. German)

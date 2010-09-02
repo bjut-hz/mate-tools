@@ -41,3 +41,7 @@ Training of a tagger:
 Training, Testing, and Evaluation of the tagger:
 
 `java -Xmx4G  -classpath anna-1.jar is2.tag3.Tagger  -model models/tag-v1-eng.model  -train connl_09_st_eng_train/CoNLL2009-ST-English-train.txt  -test gold/CoNLL2009-ST-evaluation-English.txt  -out results/tagged-eng.txt  -eval gold/CoNLL2009-ST-evaluation-English.txt`
+
+== Training Time and Memory Consumption ==
+
+Typical training time is about 10-12 hours (a night) on a fast 4 core machine (Intel Nehalem, 3.33 Ghz) for English.  The same training times is needed on a slower 2.2 Ghz, 8 core AMD system. The model takes about 100MB of disk space. The training times for other languages are quite different. On the Chinese corpus, the training requires the most time and resources because of many long sentences uses. For English, 4GB free memory and for Chinese about 11GB main memory is needed.  

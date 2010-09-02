@@ -1,7 +1,5 @@
 #labels Featured
-How to use the dependency parser from the command line?
-
-= Introduction =
+= How to use the dependency parser from the command line? =
 
 *What you need to run the parser:*
 

@@ -25,7 +25,7 @@ The Parameters are:
  * <test-file> The file contains the sentences that the tools has to process
  * <result-file> The output of the tools in CoNLL 09 format
  * <evaluation-file>A file the output is compared to  
- * <training-iterations> number training rounds; typicaly 10
+ * <training-iterations> number training rounds; typically 10
  * <count> the first n sentences are used only for training
  * <weight-vector-size> the size of the weight vector 
  * <number-of-cores> the number of maximal employed CPU cores

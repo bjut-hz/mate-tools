@@ -3,7 +3,20 @@ How to use the dependency parser from the command line?
 
 = Introduction =
 
-What is needed to run the parser:
- # the 'jar'-file containing the parser, please download anna.jar (tab Downloads)
- # a model for the parser, e.g. prs-eng.mdl, pre-trained models can be found in the Download section for various languages
- # input file with sentences in one word per line format; the words have to be tagged, lemmatized and for some languages morphologic tags should be provided as well (e.g. German)
+*What you need to run the parser:*
+
+ # The 'jar'-file containing the parser, please download anna.jar (see Downloads)
+ # A model for the parser (e.g. prs-eng.model, see Downloads)
+ # Input file with sentences in [http://ufal.mff.cuni.cz/conll2009-st/task-description.html CoNLL-2009 one word per line format] (tagged and lemmatized)
+ # Java 1.6+, 64bit
+ # Computer with 3GB free memory  
+
+*How to parse a file from the command line*
+
+`java -Xmx3G -classpath anna.jar is2.parser.Parser -model <parser.model> -test <input-file> -out <output-file>`
+
+Please replace the following parts:
+
+ * <parser.model> is the model used by the parser to build the dependency tree (see Downloads)
+ * <input-file> is read by the parser and it has to be in [http://ufal.mff.cuni.cz/conll2009-st/task-description.html CoNLL-2009 one word per line format]
+ * <output-file> is the parsing result and written by the parser

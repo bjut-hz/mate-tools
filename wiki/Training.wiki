@@ -1,6 +1,6 @@
 # This page describes the training of the tagger, lemmatizer, morphologic tagger and dependency parser
 
-= Traing of the tagger, lemmatizer, morphologic tagger, and dependency parser =
+= Traing of a tagger, lemmatizer, morphologic tagger, and dependency parser =
 
 The analyser tools provide similar command line options. Some options are only applicable to some tools 
 
@@ -23,14 +23,19 @@ The Parameters are:
  * <model> The name of a model which is created during the traing or used by tool for tagger, parsing, etc.
  * <training-corpus> A corpus that is used for training in [http://ufal.mff.cuni.cz/conll2009-st/task-description.html#Dataformat CoNLL 2009 format]
  * <test-file> The file contains the sentences that the tools has to process
+ * <result-file> The output of the tools in CoNLL 09 format
+ * <evaluation-file>A file the output is compared to  
+ * <training-iterations> number training rounds; typicaly 10
+ * <count> the first n sentences are used only for training
+ * <weight-vector-size> the size of the weight vector 
+ * <number-of-cores> the number of maximal employed CPU cores
  
 
 ===Examples===
 
-Training the tagger:
+Training of a tagger:
 
 `java -Xmx4G  -classpath anna-1.jar is2.tag3.Tagger  -model models/tag-v1-eng.model  -train connl_09_st_eng_train/CoNLL2009-ST-English-train.txt `
-
 
 Training, Testing, and Evaluation of the tagger:
 

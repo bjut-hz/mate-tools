@@ -1,0 +1,37 @@
+# This page describes the training of the tagger, lemmatizer, morphologic tagger and dependency parser
+
+= Traing of the tagger, lemmatizer, morphologic tagger, and dependency parser =
+
+The analyser tools provide similar command line options. Some options are only applicable to some tools 
+
+`java -Xmx4G -classpath anna-<version>.jar <class>` 
+`[-model <model>]` 
+`[-train <training-corpus>]`  
+`[-test <test-file>]`  
+`[-out <result-file>]`  
+`[-eval <evaluation-file>]`
+`[-i <trainig-iterations>]`
+`[-count <sentences-used>]`
+`[-hsize <weight-vector-size>]`
+
+Additional parser options:
+`[-decode proj]`
+`[-cores <number-of-cores>]`
+
+The Parameters are:
+ * <class> The class and path of the tool:  `is2.parser.Parser` | `is2.tag3.Tagger` | `is2.lemmatizer.Lemmatizer` | `is2.mtag.Main` 
+ * <model> The name of a model which is created during the traing or used by tool for tagger, parsing, etc.
+ * <training-corpus> A corpus that is used for training in [http://ufal.mff.cuni.cz/conll2009-st/task-description.html#Dataformat CoNLL 2009 format]
+ * <test-file> The file contains the sentences that the tools has to process
+ 
+
+===Examples===
+
+Training the tagger:
+
+`java -Xmx4G  -classpath anna-1.jar is2.tag3.Tagger  -model models/tag-v1-eng.model  -train connl_09_st_eng_train/CoNLL2009-ST-English-train.txt `
+
+
+Training, Testing, and Evaluation of the tagger:
+
+`java -Xmx4G  -classpath anna-1.jar is2.tag3.Tagger  -model models/tag-v1-eng.model  -train connl_09_st_eng_train/CoNLL2009-ST-English-train.txt  -test gold/CoNLL2009-ST-evaluation-English.txt  -out results/tagged-eng.txt  -eval gold/CoNLL2009-ST-evaluation-English.txt`

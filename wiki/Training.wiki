@@ -44,4 +44,4 @@ Training, Testing, and Evaluation of the tagger:
 
 == Training Time and Memory Consumption ==
 
-Typical training time is about 10-12 hours (a night) on a fast 4 core machine (Intel Nehalem, 3.33 Ghz) for English.  The same training times is needed on a slower 8 core AMD system (2.2 Ghz). The model takes about 100MB of disk space. The training times for other languages are quite different. On the Chinese corpus, the training requires the most time and resources because of many long sentences. For English, 4GB free memory is needed and for Chinese about 11GB.  
+Typical training time is about 10-12 hours (a night) on a fast 4 core machine (Intel Nehalem, 3.33 Ghz) for English.  The same training times is needed on a slower 8 core AMD system (2.2 Ghz). The training times for other languages are quite different. On the Chinese corpus, the training requires the most time and resources because of many long sentences. For English, 4GB free memory is needed and for Chinese about 11GB. The model needs only about 100MB of disk space.  

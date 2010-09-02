@@ -17,6 +17,7 @@ All the analyser tools have similar command line options. Some options are only 
 Additional parser options:
 `[-decode proj]`
 `[-cores <number-of-cores>]`
+`[-decodeTH <threshold>]`
 
 The Parameters are:
  * <version>the version of the jar file (see download section)
@@ -30,18 +31,21 @@ The Parameters are:
  * <count> the first n sentences are used only for training
  * <weight-vector-size> the size of the weight vector 
  * <number-of-cores> the number of maximal employed CPU cores
- 
+ * <threshold>Threshold of the non-projective approximation. A higher treshold does causes less non-projective links. A threshold of 0.3 has proven for English, German, and Czech as a very good choice (cf. Bohnet, 2010) 
 
-===Examples===
+=== Examples ===
 
 Training of a tagger:
 
-`java -Xmx4G  -classpath anna-1.jar is2.tag3.Tagger  -model models/tag-v1-eng.model  -train connl_09_st_eng_train/CoNLL2009-ST-English-train.txt `
+`java -Xmx2G  -classpath anna-1.jar is2.tag3.Tagger  -model models/tag-v1-eng.model  -train connl_09_st_eng_train/CoNLL2009-ST-English-train.txt `
 
 Training, Testing, and Evaluation of the tagger:
 
-`java -Xmx4G  -classpath anna-1.jar is2.tag3.Tagger  -model models/tag-v1-eng.model  -train connl_09_st_eng_train/CoNLL2009-ST-English-train.txt  -test gold/CoNLL2009-ST-evaluation-English.txt  -out results/tagged-eng.txt  -eval gold/CoNLL2009-ST-evaluation-English.txt`
+`java -Xmx2G  -classpath anna-1.jar is2.tag3.Tagger  -model models/tag-v1-eng.model  -train connl_09_st_eng_train/CoNLL2009-ST-English-train.txt  -test gold/CoNLL2009-ST-evaluation-English.txt  -out results/tagged-eng.txt  -eval gold/CoNLL2009-ST-evaluation-English.txt`
 
 == Training Time and Memory Consumption ==
 
-Typical training time is about 10-12 hours (a night) on a fast 4 core machine (Intel Nehalem, 3.33 Ghz) for English.  The same training time is needed on a slower 8 core AMD system (2.2 Ghz). The training times for other languages are quite different. On the Chinese corpus, the training requires the most time and resources because of many long sentences. For English, 4GB free memory is needed and for Chinese about 11GB. The model needs only about 100MB of disk space.  
+Typical training time of the *dependency parser* is about 10 hours (a night) on a fast 4 core machine (Intel Nehalem, 3.46 Ghz) for English.  The same training time is needed on a slower 8 core AMD system (2.2 Ghz). The training times for other languages are quite different. On the Chinese corpus, the training requires the most time and resources because of many long sentences. For English, 4GB free memory is needed and for Chinese about 11GB. The model needs only about 100MB of disk space. 
+
+Typical training time of the tagger and lemmatizer is less than an hour. The needed memory is less than 2GB. 
+ 

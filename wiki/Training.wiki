@@ -2,7 +2,7 @@
 
 = Traing of a tagger, lemmatizer, morphologic tagger, and dependency parser =
 
-The analyser tools provide similar command line options. Some options are only applicable to some tools 
+All the analyser tools have similar command line options. Some options are only applicable to some tools 
 
 `java -Xmx4G -classpath anna-<version>.jar <class>` 
 `[-model <model>]` 

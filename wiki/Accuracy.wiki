@@ -2,7 +2,7 @@
 
 = Accuracy of the tools =
 
-The tools are all language independent that means we do not use lexica or morphology component. The tools acquired everthing during the training and no manual langauge dependent adaption is needed.  All the values are obtain by training on the CoNLL shared task 2009 data and applying the model on the test set of the shared task.
+The tools are all language independent that means we do not use lexica or a morphology which would provide extra data. The tools acquired everthing during the training and no manual langauge dependent adaption is needed.  All the values are obtain by training on the CoNLL shared task 2009 data and applying the model on the test set of the shared task.
 
 Lemmatizer (accuracy)
 

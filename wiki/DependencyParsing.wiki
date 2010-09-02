@@ -13,10 +13,11 @@ How to use the dependency parser from the command line?
 
 *How to parse a file from the command line*
 
-`java -Xmx3G -classpath anna.jar is2.parser.Parser -model <parser.model> -test <input-file> -out <output-file>`
+`java -Xmx3G -classpath anna.jar is2.parser.Parser -model <parsing-model> -test <input-file> -out <output-file>`
 
 Please replace the following parts:
 
- * <parser.model> is the model used by the parser to build the dependency tree (see Downloads)
+ * <parsing-model> is the model used by the parser to build the dependency tree (see Downloads)
  * <input-file> is read by the parser and it has to be in [http://ufal.mff.cuni.cz/conll2009-st/task-description.html CoNLL-2009 one word per line format]
  * <output-file> is the parsing result and written by the parser
+ 

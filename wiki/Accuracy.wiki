@@ -13,7 +13,7 @@ Lemmatizer (accuracy)
 Tagger (accuracy)
 
 || Catalan || Chinese || Czech ||  English || German || Japanese || Spanish ||
-||               ||                 ||             || 97.63    || 93.74    ||                  ||                ||
+||               || 93.74     ||             || 97.63    ||     ||                  ||                ||
 
 
 Dependency parser (Labeled attachment score (LAS) / unlabeled attachment score (UAS)  using predicted pos tags)

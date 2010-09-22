@@ -19,4 +19,4 @@ Tagger (accuracy)
 Dependency parser (Labeled attachment score (LAS) / unlabeled attachment score (UAS)  using predicted pos tags)
 
 || Catalan || Chinese || Czech ||  English || German || Japanese || Spanish ||
-||               ||  76.80/81.10        ||             || 90.24    ||  88.22/90.39   ||                  ||                ||
+||               ||  76.80/81.10        ||             || 90.24    ||  88.22/90.39   ||   88.02/91.12               ||                ||

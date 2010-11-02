@@ -4,12 +4,12 @@ How do I tag, lemmatize, etc. a text?
 
 First, the text has to be tokenized and in one word per line format. For example, the OpenNLP tokenizer could be used.  
 
-<font face="courier, bookman" size=-1>
+{{
 Airfields have been constructed on a number of the islands , and road systems have been expanded and im proved . <br> 
 Private investment has even made an increasingly modern ferry fleet possible . <br>
 Politically , the 1990s have been relatively quite times for the islands . <br>
+}}
 
-</font>
 
 == From Tokenized one word sentence per line format to one-word per line 2009 CoNLL format ==
 

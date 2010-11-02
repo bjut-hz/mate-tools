@@ -18,7 +18,8 @@ The following command maps tokenized text (one-sentence-per-line format) into th
 java -cp Documents/workspace/mate-tools/dist/anna.jar is2.util.Split one-sentence-per-line.txt > one-word-per-line.txt
 }}}
 
-*output: one-word-per-line.txt* <br>
+*output: one-word-per-line.txt* <br><br>
+
 _
 1	Airfields	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_` <br>
 2	have	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_` <br>

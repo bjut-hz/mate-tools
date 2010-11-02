@@ -40,7 +40,7 @@ _
 
 == Tagging  ==
 
-input: one-word per line 2009 CoNLL format
+input: one-word per line format
 
 {{{
 command

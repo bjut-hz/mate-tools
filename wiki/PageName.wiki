@@ -4,6 +4,10 @@ How do I tag, lemmatize, etc. a text?
 
 First, the text has to be tokenized and in one word per line format. For example, the OpenNLP tokenizer could be used.  
 
+{{{
+Airfields have been constructed on a number of the islands , and road systems have been expanded and im proved . <br> Private investment has even made an increasingly modern ferry fleet possible . <br>
+Politically , the 1990s have been relatively quite times for the islands, although the divorce of Greek prime minister Andreas Papandreou and his subsequent marriage to a much younger woman caused consternation within conservative Greek society .
+}}}
 == From Tokenized one word sentence per line format to one-word per line 2009 CoNLL format ==
 
 The following maps tokenized text in one-sentence-per-line format into the input format of the lemmatizer, tagger, etc.

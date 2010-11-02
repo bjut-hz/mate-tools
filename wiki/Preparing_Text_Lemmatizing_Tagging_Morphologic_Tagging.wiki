@@ -37,26 +37,31 @@ _
 2	investment	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_` <br>
 ...
 _
+== Lemmatizing  ==
+
+
+{{{
+java -Xmx2G -cp anna.jar is2.lemmatizer.Lemmatizer -model <lemmatizer.model> -test <input-file-name> -out <output-file-name>
+}}}
+
+Example:
+
+{{{
+jjava -Xmx2G -cp anna.jar is2.lemmatizer.Lemmatizer -model  lemma-ger.model -test one-word-per-line.txt -out  lemmatized.txt
+}}}
+
+
 
 == Tagging  ==
 
 input: one-word per line format
 
 {{{
-java -Xmx3G -classpath anna.jar is2.tag3.Tagger  -model <file-name.model> -test <input-file-name> -out <output-file-name>
+java -Xmx2G -xp anna.jar is2.tag3.Tagger  -model <tagger.model> -test <input-file-name> -out <output-file-name>
 }}}
 
 Example:
 
 {{{
-java -Xmx2G -cp anna.jar is2.tag3.Tagger  -model  tag-ger.model -test one-word-per-line.txt -out  tagged.txt
+java -Xmx2G -cp anna.jar is2.tag3.Tagger  -model  tag-ger.model -test lemmatized.txt -out  tagged.txt
 }}}
-
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages

@@ -4,6 +4,7 @@ How do I tag, lemmatize, etc. a text?
 
 First, the text has to be tokenized and in one word per line format. For example, the OpenNLP tokenizer could be used to obtain such an input. The input text should looks as:  
 
+*input: one-sentence-per-line.txt*
 
 _Airfields have been constructed on a number of the islands . <br> 
 Private investment has even made an increasingly modern ferry fleet possible . <br>
@@ -17,6 +18,7 @@ The following command maps tokenized text (one-sentence-per-line format) into th
 java -cp Documents/workspace/mate-tools/dist/anna.jar is2.util.Split one-sentence-per-line.txt > one-word-per-line.txt
 }}}
 
+*output: one-word-per-line.txt*
 _
 1	Airfields	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_` <br>
 2	have	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_` <br>

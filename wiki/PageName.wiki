@@ -18,7 +18,7 @@ The following command maps tokenized text (one-sentence-per-line format) into th
 java -cp anna.jar is2.util.Split one-sentence-per-line.txt > one-word-per-line.txt
 }}}
 
-*output: one-word-per-line.txt* <br><br>
+*one-word-per-line.txt* <br>
 
 _
 1	Airfields	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_`	`_` <br>
@@ -38,7 +38,13 @@ _
 ...
 _
 
+== Tagging  ==
 
+input: one-word per line 2009 CoNLL format
+
+{{{
+command
+}}}
 
 = Details =
 

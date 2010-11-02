@@ -16,8 +16,8 @@ The following maps tokenized text in one-sentence-per-line format into the input
 {{{
 java -cp Documents/workspace/mate-tools/dist/anna.jar is2.util.Split one-sentence-per-line.txt > one-word-per-line.txt
 }}}
-`
-1	Airfields	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+1	Airfields	`_`	_	_	_	_	_	_	_	_	_	_	_	_
 2	have	_	_	_	_	_	_	_	_	_	_	_	_	_
 3	been	_	_	_	_	_	_	_	_	_	_	_	_	_
 4	constructed	_	_	_	_	_	_	_	_	_	_	_	_	_

@@ -43,8 +43,16 @@ _
 input: one-word per line format
 
 {{{
-command
+java -Xmx3G -classpath anna.jar is2.tag3.Tagger  -model <file-name.model> -test <input-file-name> -out <output-file-name>
 }}}
+
+Example:
+
+{{{
+java -Xmx2G -cp anna.jar is2.tag3.Tagger  -model  tag-ger.model -test one-word-per-line.txt -out  tagged.txt
+}}}
+
+
 
 = Details =
 

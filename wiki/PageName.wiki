@@ -15,7 +15,7 @@ _
 The following command maps tokenized text (one-sentence-per-line format) into the input format of the lemmatizer, tagger, etc. The one word per line text format starts with a number followed by a word form, and 13 underscores that are separated by tabs. The next sentence is separated from the previous by a empty line.
 <br>    
 {{{
-java -cp Documents/workspace/mate-tools/dist/anna.jar is2.util.Split one-sentence-per-line.txt > one-word-per-line.txt
+java -cp anna.jar is2.util.Split one-sentence-per-line.txt > one-word-per-line.txt
 }}}
 
 *output: one-word-per-line.txt* <br><br>

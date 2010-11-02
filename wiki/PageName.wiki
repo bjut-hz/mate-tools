@@ -5,18 +5,29 @@ How do I tag, lemmatize, etc. a text?
 First, the text has to be tokenized and in one word per line format. For example, the OpenNLP tokenizer could be used to obtain such an input. The input text should looks as:  
 
 
-_Airfields have been constructed on a number of the islands , and road systems have been expanded and im proved . <br> 
+_Airfields have been constructed on a number of the islands . <br> 
 Private investment has even made an increasingly modern ferry fleet possible . <br>
 Politically , the 1990s have been relatively quite times for the islands . <br>
 _
-== From Tokenized one word sentence per line format to one-word per line 2009 CoNLL format ==
+== From Tokenized one sentence per line format to one-word per line 2009 CoNLL format ==
 
 The following maps tokenized text in one-sentence-per-line format into the input format of the lemmatizer, tagger, etc.
 <br>    
 {{{
 java -cp Documents/workspace/mate-tools/dist/anna.jar is2.util.Split one-sentence-per-line.txt > one-word-per-line.txt
 }}}
-
+_
+1	Airfields	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	have	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	been	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	constructed	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	on	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	a	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	number	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	of	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	the	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	islands	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_
 
 
 

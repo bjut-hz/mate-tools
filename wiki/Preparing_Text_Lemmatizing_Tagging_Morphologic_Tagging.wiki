@@ -47,14 +47,11 @@ java -Xmx2G -cp anna.jar is2.lemmatizer.Lemmatizer -model <lemmatizer.model> -te
 Example:
 
 {{{
-jjava -Xmx2G -cp anna.jar is2.lemmatizer.Lemmatizer -model  lemma-ger.model -test one-word-per-line.txt -out  lemmatized.txt
+java -Xmx2G -cp anna.jar is2.lemmatizer.Lemmatizer -model  lemma-ger.model -test one-word-per-line.txt -out  lemmatized.txt
 }}}
 
 
-
 == Tagging  ==
-
-input: one-word per line format
 
 {{{
 java -Xmx2G -xp anna.jar is2.tag3.Tagger  -model <tagger.model> -test <input-file-name> -out <output-file-name>
@@ -65,3 +62,18 @@ Example:
 {{{
 java -Xmx2G -cp anna.jar is2.tag3.Tagger  -model  tag-ger.model -test lemmatized.txt -out  tagged.txt
 }}}
+
+== Morphologic Tagging  ==
+
+input: one-word per line format
+
+{{{
+java -Xmx2G -xp anna.jar is2.mtag.Main  -model <morph-tagger.model> -test <input-file-name> -out <output-file-name>
+}}}
+
+Example:
+
+{{{
+java -Xmx2G -cp anna.jar is2.mtag.Main  -model  mtag-ger.model -test tagged.txt -out  morph-tagged.txt
+}}}
+

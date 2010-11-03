@@ -2,7 +2,7 @@ How do I tag, lemmatize, etc. a text?
 
 = Spliting, Tagging, Morphologic Tagging and Lemmatizing =
 
-First, the text has to be tokenized and in one word per line format. For example, the OpenNLP tokenizer could be used to obtain such an input. The input text should looks as:  
+The input text has to be tokenized and in one word per line format. For example, the OpenNLP tokenizer could be used to obtain such an input. The input text should looks as:  
 
 *input: one-sentence-per-line.txt*
 
@@ -76,4 +76,3 @@ Example:
 {{{
 java -Xmx2G -cp anna.jar is2.mtag.Main  -model  mtag-ger.model -test tagged.txt -out  morph-tagged.txt
 }}}
-

@@ -12,7 +12,7 @@ Politically , the 1990s have been relatively quite times for the islands . <br>
 _
 == From Tokenized one sentence per line format to one-word per line 2009 CoNLL format ==
 
-The following command maps tokenized text (one-sentence-per-line format) into the input format of the lemmatizer, tagger, etc. The one word per line text format starts with a number followed by a word form, and 13 underscores that are separated by tabs. The next sentence is separated from the previous by a empty line.
+The following command maps tokenized text (one-sentence-per-line format) into the input format of the lemmatizer, tagger, etc. The one word per line text format starts with a number followed by a word form, and 13 underscores that are separated by tabs. The sentences are separated by empty lines.
 <br>    
 {{{
 java -cp anna.jar is2.util.Split one-sentence-per-line.txt > one-word-per-line.txt

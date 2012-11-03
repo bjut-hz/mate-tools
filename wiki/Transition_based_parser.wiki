@@ -1,17 +1,15 @@
 #This page describes the usage of our transition-based parser (Joint Pos-Tagging / Graph-based completion model) 
 
-= Transition-based parser including a Tagger and Graph-based Model =
+= Transition-based parser including a pos-tagger and graph-based model =
 
-Please, note that this is still a research parser and we will provide later versions that use less main memory and disc space. 
+Please, note that the parser is a research parser and we will provide later versions that use less memory and disc space. 
 
-It is also not exactly the version, we used for our papers (Bohnet and Kuhn, 2012; Bohnet and Nivre, 2012). I fixed already a few bugs and improved the speed.
+It is also not exactly the version, we used for our papers (Bohnet and Kuhn, 2012) nor (Bohnet and Nivre, 2012) as I fixed already a few bugs and improved the speed.
 
-For the training settings of language, we would recommand to have a look in our paper (Bohnet and Nivre, 2012).
+Nevertheless, for the training settings of different language, we would recommand to have a look on our paper (Bohnet and Nivre, 2012).
 
  
-= Details =
+==Training ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  # For the training, a computer with 18G free main memory is needed as we jackknife 10 taggers in the training phase; I recommand strongly to use a newer faster Intel CPU with a minimum number of 4 cores better 6.
+ 

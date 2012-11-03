@@ -2,9 +2,9 @@
 
 = Transition-based parser including a pos-tagger and graph-based model =
 
-Please, note that the parser is a research parser and we will provide later versions that use less memory and disc space. It is also not exactly the version, we used for our papers (Bohnet and Kuhn, 2012) nor (Bohnet and Nivre, 2012) as I fixed already a few bugs and improved the speed.
+Please, note that the parser is a research parser and we will provide later versions that use less memory and disc space. It is also not exactly the version, we used for our papers (Bohnet and Kuhn, 2012). It is must similar to the parser in (Bohnet and Nivre, 2012). However, I fixed a few bugs and improved the speed.
 
-Nevertheless, for the training settings of different language, we would recommand to have a look on our paper (Bohnet and Nivre, 2012).
+For the training settings of different language, we would recommand to have a look on our paper (Bohnet and Nivre, 2012).
 
  
 ==Training ==

@@ -28,7 +28,7 @@ For the training settings of different language, we would recommand to have a lo
 || -thsize     number      || hash kernal size of each of the tagger ||
 || -ti number              || training iterations of the pos tagger ||
 || -tsize                  || number of n-best tags used in the parser ||
-|| -tthreshold number      || threshold for used pos-tags in the parser ||
+|| -tthreshold number      || score threshold for used pos-tags in the parser ||
   
 
   * Example command for training of the parser

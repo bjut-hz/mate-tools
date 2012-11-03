@@ -1,10 +1,14 @@
 #This page describes the usage of our transition-based parser (Joint Pos-Tagging / Graph-based completion model) 
 
-= Introduction =
+= General Remarks =
 
-Add your content here.
+Please, note that this is still a research parser and we will provide later versions that use less main memory and disc space. 
 
+It is also not exactly the version, we used for our papers (Bohnet and Kuhn, 2012; Bohnet and Nivre, 2012). I fixed already a few bugs and improved the speed.
 
+For the training settings of language, we would recommand to have a look in our paper (Bohnet and Nivre, 2012).
+
+ 
 = Details =
 
 Add your content here.  Format your content with:

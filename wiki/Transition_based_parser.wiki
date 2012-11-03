@@ -24,6 +24,8 @@ For the training settings of different language, we would recommand to have a lo
 || -2nd abcd               || use second order factors (each letter denotes a factor)  ||
 || -2nd abc                || use third order factors (each letter denotes a factor)  ||
 || -x train:test           || train and test the pos taggers ||
+|| -ti number              || training iterations of the pos tagger ||
+|| -tnumber number         || number of tagger trained for jackknifing ||
   
 
   * Example command for training of the parser

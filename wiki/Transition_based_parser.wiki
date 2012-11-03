@@ -29,6 +29,7 @@ For the training settings of different language, we would recommand to have a lo
 || -ti number              || training iterations of the pos tagger ||
 || -tsize                  || number of n-best tags used in the parser ||
 || -tthreshold number      || score threshold for used pos-tags in the parser ||
+|| -half number            || number of used alternative in the parser for pos tag variants ||
   
 
   * Example command for training of the parser

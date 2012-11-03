@@ -28,8 +28,12 @@ For the training settings of different language, we would recommand to have a lo
 
   * Example command for training of the parser
 {{{
-java -Xmx17g -classpath ~/d8/dist/$dist $parser -test $testw -out ~/results/$model-web  -eval $testw  -model models/$model -i 25  -hsize 400000001 -cores 20  -beam $b       -2nd abcd -3rd \
-ab -1st a  -tsize $ts -tnumber 10 -ti 10  -x trai:tes -thsize 90000001 -tthreshold $th -tx 3  -decoder nv -half 2  -tt 25 -cluster $clustersw
+java -Xmx17g -classpath ~/dist/anna-3.3.jar is2.transitionR6j.Parser 
+    -test oNLL2009-ST-English-train.txt -out ~/results/prs-result-eng  
+    -eval CoNLL2009-ST-evaluation-English.tx 
+    -model model-eng-b40-R6j -i 20  -hsize 500000001 -cores 12 -beam 40            
+    -1st a -2nd abcd -3rd ab 
+    -tsize -tnumber 10 -ti 10  -x trai:tes -thsize 90000001 -tthreshold $th -tx 3  -decoder nv -half 2  -tt 25 -cluster $clustersw
 
 }}} 
 

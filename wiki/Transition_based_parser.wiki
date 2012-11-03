@@ -31,6 +31,7 @@ For the training settings of different language, we would recommand to have a lo
 || -tthreshold number      || score threshold for used pos-tags in the parser ||
 || -half number            || maximum number of alternatives pos tag variants per syntactic alternative in the beam||
 || -tt number              || tagger normalization factor ||
+|| -count number           || use the first n sentences of the training corpus ||
   
 
   * Example command for training of the parser

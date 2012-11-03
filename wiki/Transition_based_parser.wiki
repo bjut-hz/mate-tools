@@ -13,7 +13,9 @@ For the training settings of different language, we would recommand to have a lo
 
   # Training settings: 
 || *Options*      || *Description* ||
-|| -X train:test  || train and test the pos taggers ||
+|| -train <file-name>  || train-corpus name||
+|| -test <file-name>  || test-corpus name||
+|| -x train:test  || train and test the pos taggers ||
 
 
  

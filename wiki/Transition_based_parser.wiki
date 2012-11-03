@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#This page describes the usage of our transition-based parser (Joint Pos-Tagging / Graph-based completion model) 
 
 = Introduction =
 

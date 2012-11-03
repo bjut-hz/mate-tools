@@ -24,6 +24,7 @@ For the training settings of different language, we would recommand to have a lo
 || -2nd abc                || use third order factors (each letter denotes a factor)  ||
 || -x train:test           || train and test the pos taggers ||
   
+<br>
   * Example training command
 {{{
 xxx

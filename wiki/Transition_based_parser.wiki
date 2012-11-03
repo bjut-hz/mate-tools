@@ -26,9 +26,11 @@ For the training settings of different language, we would recommand to have a lo
 || -x train:test           || train and test the pos taggers ||
   
 
-  * Example training command
+  * Example command for training of the parser
 {{{
-xxx
+java -Xmx17g -classpath ~/d8/dist/$dist $parser -test $testw -out ~/results/$model-web  -eval $testw  -model models/$model -i 25  -hsize 400000001 -cores 20  -beam $b       -2nd abcd -3rd \
+ab -1st a  -tsize $ts -tnumber 10 -ti 10  -x trai:tes -thsize 90000001 -tthreshold $th -tx 3  -decoder nv -half 2  -tt 25 -cluster $clustersw
+
 }}} 
 
 

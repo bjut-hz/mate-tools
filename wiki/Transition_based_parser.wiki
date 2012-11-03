@@ -1,6 +1,6 @@
 #This page describes the usage of our transition-based parser (Joint Pos-Tagging / Graph-based completion model) 
 
-= General Remarks =
+= Transition-based parser including a Tagger and Graph-based Model =
 
 Please, note that this is still a research parser and we will provide later versions that use less main memory and disc space. 
 

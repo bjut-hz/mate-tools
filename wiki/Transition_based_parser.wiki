@@ -17,8 +17,8 @@ For the training settings of different language, we would recommend to have a lo
 
 || *Options*               || *Description* ||
 || -train file-name        || training corpus name||
-|| -test file-name>        || testing corpus name||
-|| -eval file-name>        || evaluation corpus name||
+|| -test file-name         || testing corpus name||
+|| -eval file-name         || evaluation corpus name||
 || -i number               || number of training iterations ||
 || -beam number            || beam size ||
 || -hsize number           || size of hash kernel ||

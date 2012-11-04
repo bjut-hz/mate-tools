@@ -16,13 +16,13 @@ For the training settings of different language, we would recommend to have a lo
   * Training and parsing settings
 
 || *Options*               || *Description* ||
-|| -train file-name        || train-corpus name||
-|| -test file-name>        || test-corpus name||
-|| -eval file-name>        || evaluation-corpus name||
+|| -train file-name        || training corpus name||
+|| -test file-name>        || testing corpus name||
+|| -eval file-name>        || evaluation corpus name||
 || -i number               || number of training iterations ||
 || -beam number            || beam size ||
 || -hsize number           || size of hash kernel ||
-|| -1st a                  || use first oder factor  ||
+|| -1st a                  || use first order factor  ||
 || -2nd abcd               || use second order factors (each letter denotes a factor)  ||
 || -2nd abc                || use third order factors (each letter denotes a factor)  ||
 || -x train:test           || train and test the pos taggers ||

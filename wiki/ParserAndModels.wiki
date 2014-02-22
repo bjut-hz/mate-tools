@@ -1,5 +1,5 @@
 #Parser and Models for Joint Morphologic and Dependency Parsing
 
-= Parser and Models for Joint Morphologic and Dependency Parsing  =
+== Parser and Models for Joint Morphologic and Dependency Parsing  ==
 
 Google Code closed its upload section. Therefore, we provide the parser and models for download here. 

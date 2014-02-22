@@ -1,4 +1,4 @@
-#Parsing Models for Joint dependency parser and Syntactic parser
+#Parser and Models for Joint Morphologic and Dependency Parsing
 
 = Parser and Models for Joint Morphologic and Dependency Parsing  =
 

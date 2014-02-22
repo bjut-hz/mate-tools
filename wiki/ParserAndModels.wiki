@@ -4,7 +4,7 @@
 
 _Google Code closed its upload section. Hence, we have to provide the parser and models for download here._ 
 
-Included technology:
+Parser uses the following technology:
   # transition-based dependency parser
   # beam-search and early update
   # graph-based completion model

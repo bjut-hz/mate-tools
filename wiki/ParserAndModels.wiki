@@ -1,5 +1,13 @@
 #Parser and Models for Joint Morphologic and Dependency Parsing
 
-== Parser and Models for Joint Morphologic and Dependency Parsing  ==
+== Parser and Models for Joint Tagging and Dependency Parsing  ==
 
-Google Code closed its upload section. Therefore, we provide the parser and models for download here. 
+_Google Code closed its upload section. Hence, we have to provide the parser and models for download here._ 
+
+Included technology:
+  # transition-based dependency parser
+  # beam-search and early update
+  # graph-based completion model
+  # joint Part-of-Speech tagging
+  # joint Morphologic tagging
+  # Hash-Kernel

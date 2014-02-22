@@ -1,0 +1,5 @@
+#Parsing Models for Joint dependency parser and Syntactic parser
+
+= Models for the Transition-based Parser with Completion and Joint Morphologic and Dependency Parsing  =
+
+Google Code closed its upload section. Therefore, we provide the parser and models for download on this page. 

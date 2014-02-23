@@ -6,11 +6,11 @@ _Google Code closed its upload section. Hence, we have to provide the parser and
 
 This parser provides the following technology: transition-based dependency parser, beam-search and early update, graph-based completion model, joint Part-of-Speech tagging, joint Morphologic tagging, Hash-Kernel
 
-*Download* : [https://drive.google.com/file/d/0B-qbj-8rtoUMX3p3UjhfWlVRTXM/edit?usp=sharing transition-1.24.jar]
+*  *Download* : [https://drive.google.com/file/d/0B-qbj-8rtoUMX3p3UjhfWlVRTXM/edit?usp=sharing transition-1.24.jar]
 
-Terms of use: research only (GPL), please cite: _Bernd Bohnet, Joakim Nivre, Igor Boguslavsky, Richárd Farkas, Filip Ginter, Jan Hajic: Joint Morphological and Syntactic Analysis for Richly Inflected Languages. TACL 1: 415-428 (2013)_ 
+  * Terms of use: research only (GPL), please cite: _Bernd Bohnet, Joakim Nivre, Igor Boguslavsky, Richárd Farkas, Filip Ginter, Jan Hajic: Joint Morphological and Syntactic Analysis for Richly Inflected Languages. TACL 1: 415-428 (2013)_ 
 
 === French Models ===
-  * Joint-Parsing-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMYV8yalAtcFk0WFE/edit?usp=sharing  dependency-parser+tagger+morphology]  
+  * *Download* of Joint-Parsing-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMYV8yalAtcFk0WFE/edit?usp=sharing  dependency-parser+tagger+morphology]  
   * Training and application script [https://drive.google.com/file/d/0B-qbj-8rtoUMSlY4SmtTaHQtZU0/edit?usp=sharing csh script]
   * Terms of use: research only and please cite: _Candito M.-H., Crabbé B., and Denis P., 2010. Statistical French dependency parsing: treebank conversion and first results, Proceedings of LREC'2010, La Valletta, Malta_

@@ -11,5 +11,4 @@ This parser provides the following technology: transition-based dependency parse
 === French Models ===
   * Joint-Parsing-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMYV8yalAtcFk0WFE/edit?usp=sharing  dependency-parser+tagger+morphology]  
   * Training and application script [https://drive.google.com/file/d/0B-qbj-8rtoUMSlY4SmtTaHQtZU0/edit?usp=sharing csh script]
-  * Terms of use: research only and please cite _Candito M.-H., Crabbé B., and Denis P., 2010 
-Statistical French dependency parsing: treebank conversion and first results, Proceedings of LREC'2010, La Valletta, Malta_
+  * Terms of use: research only and please cite _Candito M.-H., Crabbé B., and Denis P., 2010. Statistical French dependency parsing: treebank conversion and first results, Proceedings of LREC'2010, La Valletta, Malta_

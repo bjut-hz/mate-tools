@@ -9,5 +9,5 @@ This parser provides the following technology: transition-based dependency parse
 *Download* : [https://drive.google.com/file/d/0B-qbj-8rtoUMX3p3UjhfWlVRTXM/edit?usp=sharing transition-1.24.jar]
 
 === French Models ===
-*Joint-Parsing-Model*: [https://drive.google.com/file/d/0B-qbj-8rtoUMYV8yalAtcFk0WFE/edit?usp=sharing  dependency-parser+tagger+morphology]  
-*training and application script [https://drive.google.com/file/d/0B-qbj-8rtoUMSlY4SmtTaHQtZU0/edit?usp=sharing csh script]
+  *Joint-Parsing-Model*: [https://drive.google.com/file/d/0B-qbj-8rtoUMYV8yalAtcFk0WFE/edit?usp=sharing  dependency-parser+tagger+morphology]  
+  *Training and application script [https://drive.google.com/file/d/0B-qbj-8rtoUMSlY4SmtTaHQtZU0/edit?usp=sharing csh script]

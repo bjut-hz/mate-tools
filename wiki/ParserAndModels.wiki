@@ -8,7 +8,7 @@ This parser provides the following technology: transition-based dependency parse
 
   *  *Download* of joint parser : [https://drive.google.com/file/d/0B-qbj-8rtoUMX3p3UjhfWlVRTXM/edit?usp=sharing transition-1.24.jar]
   * Terms of use: research only (GPL), please cite: 
-_Bernd Bohnet, Joakim Nivre, Igor Boguslavsky, Richárd Farkas, Filip Ginter, Jan Hajic: Joint Morphological and Syntactic Analysis for Richly Inflected Languages. TACL 1: 415-428 (2013)_ [http://www.transacl.org/wp-content/uploads/2013/10/paperno34.pdf pdf]
+     {{{_Bernd Bohnet, Joakim Nivre, Igor Boguslavsky, Richárd Farkas, Filip Ginter, Jan Hajic: Joint Morphological and Syntactic Analysis for Richly Inflected Languages. TACL 1: 415-428 (2013)_ [http://www.transacl.org/wp-content/uploads/2013/10/paperno34.pdf pdf] }}}
   * Commercial license and consulting is available, please contact {{{bohnetbd@gmail.com}}}
 
 === French Models ===

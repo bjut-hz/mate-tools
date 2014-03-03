@@ -14,7 +14,7 @@ This parser provides the following technology: transition-based dependency parse
   * *Download* of Lemmatizer-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMaUVsWUFuOE81ZW8/edit?usp=sharing lemmatizer-model] ; script to apply the lemmatizer [https://drive.google.com/file/d/0B-qbj-8rtoUMaGwzalFKT1hYUXM/edit?usp=sharing csh script]
 
 === French Models ===
-  * *Download* of Joint-Parsing-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMYV8yalAtcFk0WFE/edit?usp=sharing  dependency-parser+tagger+morphology]  ; script to train and apply the parser: [https://drive.google.com/file/d/0B-qbj-8rtoUMSlY4SmtTaHQtZU0/edit?usp=sharing csh script]
+  * *Download* of Joint-Parsing-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMYV8yalAtcFk0WFE/edit?usp=sharing parser+tagger+morphology]  ; script to train and apply the parser: [https://drive.google.com/file/d/0B-qbj-8rtoUMSlY4SmtTaHQtZU0/edit?usp=sharing csh script]
   * *Download* of Lemmatizer-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMMEYwY0FFLUVmeEU/edit?usp=sharing lemmatizer] ; script to train and apply the lemmatizer  [https://drive.google.com/file/d/0B-qbj-8rtoUMWWRzR09zblNXcDg/edit?usp=sharing csh script]
   * We used the treebank described in the following paper for training
 

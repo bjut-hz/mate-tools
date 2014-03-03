@@ -9,8 +9,12 @@ This parser provides the following technology: transition-based dependency parse
      _Bernd Bohnet, Joakim Nivre, Igor Boguslavsky, Richárd Farkas, Filip Ginter, Jan Hajic: Joint Morphological and Syntactic Analysis for Richly Inflected Languages. TACL 1: 415-428 (2013)_ [http://www.transacl.org/wp-content/uploads/2013/10/paperno34.pdf pdf] 
   * Commercial license and consulting is available, please contact {{{Bernd Bohnet}}}
 
+=== German Models ===
+* *Download* of Joint-Parsing-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMNS1iaC1DdW1uZkE/edit?usp=sharing]
+
+
 === French Models ===
-  * *Download* of Joint-Parsing-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMYV8yalAtcFk0WFE/edit?usp=sharing  dependency-parser+tagger+morphology]  ; Training and application script: [https://drive.google.com/file/d/0B-qbj-8rtoUMSlY4SmtTaHQtZU0/edit?usp=sharing csh script]
+  * *Download* of Joint-Parsing-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMYV8yalAtcFk0WFE/edit?usp=sharing  dependency-parser+tagger+morphology]  ; Training and script to apply the parser: [https://drive.google.com/file/d/0B-qbj-8rtoUMSlY4SmtTaHQtZU0/edit?usp=sharing csh script]
   * *Download* of Lemmatizer-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMMEYwY0FFLUVmeEU/edit?usp=sharing lemmatizer] ; Training and application [https://drive.google.com/file/d/0B-qbj-8rtoUMWWRzR09zblNXcDg/edit?usp=sharing csh script]
   * Terms of use: research only, please cite:
    _Candito M.-H., Crabbé B., and Denis P., 2010. Statistical French dependency parsing: treebank conversion and first results, Proceedings of LREC'2010, La Valletta, Malta_

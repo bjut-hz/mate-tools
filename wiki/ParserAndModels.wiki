@@ -10,7 +10,7 @@ This parser provides the following technology: transition-based dependency parse
   * Commercial license and consulting is available, please contact {{{Bernd Bohnet}}}
 
 === German Models ===
-  * *Download* of Joint-Parsing-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMLUg5NGpBVW9JNkE/edit?usp=sharing parser+tagger+morphology] Script to apply the parser: [https://drive.google.com/file/d/0B-qbj-8rtoUMeUhjNWM5Qkd2VUk/edit?usp=sharing csh script]
+  * *Download* of Joint-Parsing-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMLUg5NGpBVW9JNkE/edit?usp=sharing parser+tagger+morphology] ; script to apply the parser: [https://drive.google.com/file/d/0B-qbj-8rtoUMeUhjNWM5Qkd2VUk/edit?usp=sharing csh script]
   * *Download* of Lemmatizer-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMaUVsWUFuOE81ZW8/edit?usp=sharing lemmatizer-model] ; script to apply the lemmatizer [https://drive.google.com/file/d/0B-qbj-8rtoUMaGwzalFKT1hYUXM/edit?usp=sharing csh script]
 
 === French Models ===

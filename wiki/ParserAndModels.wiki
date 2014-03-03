@@ -10,7 +10,7 @@ This parser provides the following technology: transition-based dependency parse
   * Commercial license and consulting is available, please contact {{{Bernd Bohnet}}}
 
 === German Models ===
-* *Download* of Joint-Parsing-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMNS1iaC1DdW1uZkE/edit?usp=sharing]
+* *Download* of Joint-Parsing-Model: [https://drive.google.com/file/d/0B-qbj-8rtoUMLUg5NGpBVW9JNkE/edit?usp=sharing parser+tagger+morphology]
 
 
 === French Models ===

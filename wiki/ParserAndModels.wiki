@@ -5,7 +5,7 @@
 This parser provides the following technology: transition-based dependency parser, beam-search and early update, graph-based completion model, joint Part-of-Speech tagging, joint Morphologic tagging, Hash-Kernel
 
   *  *Download* of joint parser: [https://drive.google.com/file/d/0B-qbj-8rtoUMRHByX0NBMTk2TlE/edit?usp=sharing transition-1.26.jar] 
-  old version: [https://drive.google.com/file/d/0B-qbj-8rtoUMX3p3UjhfWlVRTXM/edit?usp=sharing transition-1.24.jar]
+  *  old versions with compatible models: [https://drive.google.com/file/d/0B-qbj-8rtoUMX3p3UjhfWlVRTXM/edit?usp=sharing transition-1.24.jar]
   * Terms of use: research only (GPL), please cite: 
      _Bernd Bohnet, Joakim Nivre, Igor Boguslavsky, Richárd Farkas, Filip Ginter, Jan Hajic: Joint Morphological and Syntactic Analysis for Richly Inflected Languages. TACL 1: 415-428 (2013)_ [http://www.transacl.org/wp-content/uploads/2013/10/paperno34.pdf pdf] 
   * Commercial license and consulting is available, please contact {{{Bernd Bohnet}}}

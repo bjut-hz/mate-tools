@@ -8,6 +8,7 @@ This parser provides the following technology: transition-based dependency parse
   *  Old versions with compatible models: [https://drive.google.com/file/d/0B-qbj-8rtoUMMlpQSGtRcmxLSms/edit?usp=sharing transition-1.29.jar] [https://drive.google.com/file/d/0B-qbj-8rtoUMaEN5ZHhhN1JXMkk/edit?usp=sharing transition-1.28.jar] [https://drive.google.com/file/d/0B-qbj-8rtoUMRHByX0NBMTk2TlE/edit?usp=sharing transition-1.26.jar], [https://drive.google.com/file/d/0B-qbj-8rtoUMX3p3UjhfWlVRTXM/edit?usp=sharing transition-1.24.jar]
   * * New! - experimental version* with selected feature template sets for different language [https://drive.google.com/file/d/0B-qbj-8rtoUMWmJ5bnhZN0NVZG8/view?usp=sharing transition-62.jar] 
 
+  The version is based on the paper of 
   Miguel Ballesteros and Bernd Bohnet   2014.   Automatic Feature Selection for Agenda-Based Dependency Parsing . 25th International Conference on Computational Linguistics (COLING 2014) Dublin, Ireland [http://anthology.aclweb.org/C/C14/C14-1076.pdf pdf]
   * *Sample Code* for integration into other java-code: [https://drive.google.com/file/d/0B-qbj-8rtoUMenh3VllFVUYtbDg/edit?usp=sharing LemmatizeAndParse.java]
   * Terms of use: research only (GPL), please cite: 
